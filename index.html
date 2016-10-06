@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src='js/index.js'></script>
+    <link rel='stylesheet' href='css/style.css'/>
+    <title>Forms</title>
+  </head>
+
+
+  <body>
+      <form class='gin-form' action='http://f52201b8.ngrok.io/posts' enctype='multipart/form-data' method='POST'>
+            <label>
+              First Name
+              <input id='first_name' type='text' placeholder='First Name' name='first_name'/>
+              <span class='error-msg'> - First name invalid</span>
+            </label>
+            <label>
+              Last Name
+              <input id='last_name' type='text' placeholder='Last Name' name='last_name'/>
+              <span class='error-msg'> - Last name invalid</span>
+            </label>
+            <label>
+              Age
+              <input id='age' type='text' placeholder="Age" name='age'/>
+              <span class='error-msg'> - Must be at least 18</span>
+            </label>
+            <input name='submit' type='submit'/>
+      </form>
+      </body>
+  </html>
+
+
+
+
+<!--  EXCERCISE 2
+  <form action='http://f52201b8.ngrok.io/posts' enctype='multipart/form-data' method='POST'>
+      <div>
+        <label>
+          First Name
+          <input type='text' placeholder='First Name' name='first_name'/>
+        </label>
+        <label>
+          Last Name
+        <input type='text' placeholder='Last Name' name='last_name'/>
+        </label>
+      </div>
+      <div>
+        <label>
+          Age
+          <input type='text' placeholder="Age" name='age'/>
+        </label>
+      </div>
+      <div>
+        <label>
+          Email
+          <input type='text' placeholder='Email' name='email'/>
+        </label>
+        <label>
+          <input name='password' type='password' placeholder='password'/>
+        </label>
+      </div>
+      <div>
+        <label>
+        Profile Picture
+          <input type='file' name='photo'/>
+        </label>
+      </div>
+      <div>
+        <input name='submit' type='submit'/>
+      </div>
+  </form> -->
+
+
+
+
+
+
+
+  <!-- <h2> EXCERCISE 1Registration</h2>
+    <form action='signup' enctype='multipart/form-data' method='PUT'>
+      <fieldset>
+        <div>
+          <label>
+            First Name
+            <input type='text' placeholder='First Name' name='first_name'/>
+          </label>
+          <label>
+            Last Name
+          <input type='text' placeholder='Last Name' name='last_name'/>
+          </label>
+        </div>
+      </fieldset>
+      <div>
+        <input type='text' placeholder='Email' name='email'/>
+        <select name='pet' id='pet'>
+          <option>Select your pet</option>
+          <option>Cat</option>
+          <option>Dog</option>
+          <option>Bird</option>
+        </select>
+      </div>
+      <div>
+        <input type='tel' name='mobile' placeholder='Mobile number'/>
+      </div>
+      <div>
+        <div>Choose your sport:</div>
+        <label>
+          <input name='sports' type='checkbox' value='football'/> Football
+        </label>
+        <label>
+          <input name='sports' type='checkbox' value='soccer'/> Soccer
+        </label>
+        <label>
+          <input name='sports' type='checkbox' value='frog_racing'/> Frog racing
+        </label>
+      </div>
+      <div>
+        <div>Do you agree to these conditions</div>
+        <input name='agreed_to_conditions' type='checkbox' value='true'/>I agree
+      </div>
+      <div>
+        <div>Day of the Week</div>
+        <input name='day' type='radio' value='Monday'/>Monday
+        <input name='day' type='radio' value='Tuesday'/>Tuesday
+        <input name='day' type='radio' value='Wednesday'/>Wednesday
+        <input name='day' type='radio' value='Thursday'/>Thursday
+        <input name='day' type='radio' value='Friday'/>Friday
+      </div>
+      <div>
+        <textarea maxlength="100" cols='100' rows='10'></textarea>
+      </div>
+      <div>
+          <div>Date of Birth</div>
+          <input name='dob' type='date'/>
+      </div>
+      <div>
+        <div>Password</div>
+        <input name='password' type='password' placeholder='password'/>
+      <div>
+          <label>
+            Profile Picture
+            <input type='file' name='profile_picture'/>
+          </label>
+      </div>
+      <div>
+        <input name='submit' type='submit'/>
+    </form> -->
+
+  <!-- </body>
+  </html> -->

@@ -1,0 +1,12 @@
+.gin-form label {
+  display: block;
+}
+
+input.error {
+  border: 2px solid red;
+}
+
+.error-msg {
+  color: red;
+  display: none;
+}
